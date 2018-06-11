@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IDT Invoice" max_length="40" name="x_172337_telecom_i_idt_invoice" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Billing Date" max_length="40" name="u_billing_date" type="glide_date"/>
+        <element label="Comments" max_length="1000" name="u_comments" type="string"/>
+        <element label="Details" max_length="40" name="u_details" type="string"/>
+        <element label="IDT Budget" max_length="32" name="u_idt_budget" reference="x_172337_telecom_i_idt_budget" type="reference"/>
+        <element label="Category" max_length="32" name="u_idt_category" reference="x_172337_telecom_i_idt_type" type="reference"/>
+        <element label="Invoice Date" max_length="40" name="u_invoice_date" type="glide_date"/>
+        <element label="Total" max_length="20" name="u_invoice_total" type="currency"/>
+        <element label="Name" max_length="32" name="u_name" reference="x_172337_telecom_i_idt_user" type="reference"/>
+        <element label="Supervisor" max_length="32" name="u_supervisor" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_idt_category"/>
+        </index>
+        <index name="index2">
+            <element name="u_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_supervisor"/>
+        </index>
+        <index name="index4">
+            <element name="u_idt_budget"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Credit Information" section_id="e59423573712130021ca03a973990e71" sys_domain="global" table="x_172337_telecom_i_idt_invoice" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-01 15:27:52</sys_created_on>
+            <sys_id>32a505733752130021ca03a973990e4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_172337_telecom_i_idt_invoice" sys_domain="global" view="Default view">e59423573712130021ca03a973990e71</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-01 15:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-01 15:27:52</sys_created_on>
+            <sys_id>b2a505733752130021ca03a973990e4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_172337_telecom_i_idt_invoice" sys_domain="global" view="Default view">e59423573712130021ca03a973990e71</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-01 15:27:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_invoice_total</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-01 15:27:52</sys_created_on>
+            <sys_id>36a505733752130021ca03a973990e4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_172337_telecom_i_idt_invoice" sys_domain="global" view="Default view">e59423573712130021ca03a973990e71</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-01 15:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Credit Information</caption>
+            <header>false</header>
+            <name>x_172337_telecom_i_idt_invoice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-31 13:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e59423573712130021ca03a973990e71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Credit Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+            <sys_update_name>sys_ui_section_e59423573712130021ca03a973990e71</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-31 13:45:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

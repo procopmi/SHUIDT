@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="IDT Invoice" language="en" table="x_172337_telecom_i_idt_invoice">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>IDT Invoice</label>
+            <language>en</language>
+            <name>x_172337_telecom_i_idt_invoice</name>
+            <plural>IDT Invoices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-31 13:36:26</sys_created_on>
+            <sys_id>3092efd33712130021ca03a973990e38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IDT Invoice</sys_name>
+            <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+            <sys_update_name>sys_documentation_x_172337_telecom_i_idt_invoice__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-31 13:36:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

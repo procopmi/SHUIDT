@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="259423573712130021ca03a973990e72" sys_domain="global" table="x_172337_telecom_i_idt_invoice" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-31 13:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a59423573712130021ca03a973990e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_172337_telecom_i_idt_invoice" name="x_172337_telecom_i_idt_invoice" sys_domain="global" view="Default view">259423573712130021ca03a973990e72</sys_ui_form>
+            <sys_ui_section caption="Telecom IDT" display_value="Telecom IDT" name="x_172337_telecom_i_idt_invoice" sys_domain="global" view="Default view">f9346f173712130021ca03a973990e8a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-31 13:45:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-31 13:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a59463573712130021ca03a973990e0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_172337_telecom_i_idt_invoice" name="x_172337_telecom_i_idt_invoice" sys_domain="global" view="Default view">259423573712130021ca03a973990e72</sys_ui_form>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_172337_telecom_i_idt_invoice" sys_domain="global" view="Default view">e59423573712130021ca03a973990e71</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-31 13:45:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_172337_telecom_i_idt_invoice</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-31 13:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>259423573712130021ca03a973990e72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_172337_telecom_i_idt_invoice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+            <sys_update_name>sys_ui_form_sections_259423573712130021ca03a973990e72</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-31 13:45:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

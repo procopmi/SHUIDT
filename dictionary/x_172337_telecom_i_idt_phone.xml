@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IDT Phone" max_length="40" name="x_172337_telecom_i_idt_phone" type="collection">
+        <element label="Assigned To" max_length="32" name="u_assigned_to" reference="x_172337_telecom_i_idt_user" type="reference"/>
+        <element label="Budget Manager" max_length="32" name="u_budget_mgr" reference="sys_user" type="reference"/>
+        <element label="Category" max_length="32" name="u_category" reference="x_172337_telecom_i_idt_type" type="reference"/>
+        <element attributes="pn_display_territory_selector=false,pn_display_national=true" label="Phone Number" max_length="40" name="u_phone_number" type="phone_number_e164"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_category"/>
+        </index>
+        <index name="index3">
+            <element name="u_budget_mgr"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_phone_number" label="Phone Number" language="en" table="x_172337_telecom_i_idt_phone">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_phone_number</element>
+            <help/>
+            <hint/>
+            <label>Phone Number</label>
+            <language>en</language>
+            <name>x_172337_telecom_i_idt_phone</name>
+            <plural>Phone Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-30 19:12:19</sys_created_on>
+            <sys_id>5fd527433752130021ca03a973990e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Phone Number</sys_name>
+            <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+            <sys_update_name>sys_documentation_x_172337_telecom_i_idt_phone_u_phone_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-30 19:12:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
