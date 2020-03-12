@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_172337_telecom_i_idt_user</description>
+        <name>x_172337_telecom_i_idt_user</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-30 19:25:09</sys_created_on>
+        <sys_id>87c8ef833752130021ca03a973990e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_172337_telecom_i_idt_user</sys_name>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_update_name>sys_security_acl_87c8ef833752130021ca03a973990e44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-30 19:25:09</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Telecom IDT">cd2126123702130021ca03a973990eed</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8e1740e9ffe564009376762fa87efe88</instance_id>
+        <instance_name>shudev</instance_name>
+        <name>sys_security_acl_87c8ef833752130021ca03a973990e44</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_172337_telecom_i_idt_user</description>
+        <name>x_172337_telecom_i_idt_user</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-30 19:25:09</sys_created_on>
+        <sys_id>87c8ef833752130021ca03a973990e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_172337_telecom_i_idt_user</sys_name>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_update_name>sys_security_acl_87c8ef833752130021ca03a973990e44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-30 19:25:09</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>773791849</payload_hash>
+        <record_name>x_172337_telecom_i_idt_user</record_name>
+        <reverted_from/>
+        <source>af5c7334dba3cc90fc332c860596194e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2020-03-12 12:56:25</sys_created_on>
+        <sys_id>f96cf334dba3cc90fc332c86059619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170ced142490000001</sys_recorded_at>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2020-03-12 12:56:25</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>b96cf33444a3cc90ca06eac4bafc98e6</update_guid>
+        <update_guid_history>b96cf33444a3cc90ca06eac4bafc98e6:773791849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2020-03-12 13:39:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>239a1c58e1da4582b2c3de406c7775c4</sys_id>
+        <sys_metadata>87c8ef833752130021ca03a973990e44</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_172337_telecom_i_idt_user</sys_name>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_parent display_value="x_172337_telecom_i_idt_user">235c7334dba3cc90fc332c860596191b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_scope_delete display_value="">0390ba008308480c8759ad1a005cf591</sys_scope_delete>
+        <sys_update_name>sys_security_acl_87c8ef833752130021ca03a973990e44</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_87c8ef833752130021ca03a973990e44">f96cf334dba3cc90fc332c86059619e6</sys_update_version>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2020-03-12 13:39:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

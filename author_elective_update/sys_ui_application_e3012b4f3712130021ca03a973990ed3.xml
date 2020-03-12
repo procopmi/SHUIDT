@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>IDT</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-30 18:51:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3012b4f3712130021ca03a973990ed3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IDT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_update_name>sys_ui_application_e3012b4f3712130021ca03a973990ed3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-30 18:51:19</sys_updated_on>
+    </sys_ui_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Telecom IDT">cd2126123702130021ca03a973990eed</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8e1740e9ffe564009376762fa87efe88</instance_id>
+        <instance_name>shudev</instance_name>
+        <name>sys_ui_application_e3012b4f3712130021ca03a973990ed3</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>IDT</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-30 18:51:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3012b4f3712130021ca03a973990ed3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IDT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_update_name>sys_ui_application_e3012b4f3712130021ca03a973990ed3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-30 18:51:19</sys_updated_on>
+    </sys_ui_application>
+</record_update>]]></payload>
+        <payload_hash>1961908521</payload_hash>
+        <record_name>IDT</record_name>
+        <reverted_from/>
+        <source>af5c7334dba3cc90fc332c860596194e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2020-03-12 12:56:26</sys_created_on>
+        <sys_id>866c3734dba3cc90fc332c8605961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170ced146b70000001</sys_recorded_at>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2020-03-12 12:56:26</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>466c373490a3cc905826d9847a356787</update_guid>
+        <update_guid_history>466c373490a3cc905826d9847a356787:1961908521</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2020-03-12 13:31:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>28dc1b8bd0254e5087a7d4073c465f39</sys_id>
+        <sys_metadata>e3012b4f3712130021ca03a973990ed3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IDT</sys_name>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_scope_delete display_value="">0390ba008308480c8759ad1a005cf591</sys_scope_delete>
+        <sys_update_name>sys_ui_application_e3012b4f3712130021ca03a973990ed3</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_e3012b4f3712130021ca03a973990ed3">866c3734dba3cc90fc332c8605961987</sys_update_version>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2020-03-12 13:31:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

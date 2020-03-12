@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>IDT Budgets</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_172337_telecom_i.idt_budget_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-01 15:29:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>321649733752130021ca03a973990e22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IDT Budgets</sys_name>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_update_name>sys_ui_module_321649733752130021ca03a973990e22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-01 15:29:47</sys_updated_on>
+        <table>x_172337_telecom_i_idt_budget</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Telecom IDT">cd2126123702130021ca03a973990eed</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8e1740e9ffe564009376762fa87efe88</instance_id>
+        <instance_name>shudev</instance_name>
+        <name>sys_ui_module_321649733752130021ca03a973990e22</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>IDT Budgets</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_172337_telecom_i.idt_budget_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-01 15:29:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>321649733752130021ca03a973990e22</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IDT Budgets</sys_name><sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope><sys_update_name>sys_ui_module_321649733752130021ca03a973990e22</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-01 15:29:47</sys_updated_on><table>x_172337_telecom_i_idt_budget</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>351211248</payload_hash>
+        <record_name>IDT Budgets</record_name>
+        <reverted_from/>
+        <source>657cfbb0dba3cc90fc332c860596196c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2020-03-12 13:31:21</sys_created_on>
+        <sys_id>d96404c1dbe3cc90fc332c86059619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170cef13c260000001</sys_recorded_at>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2020-03-12 13:31:21</sys_updated_on>
+        <type>Module</type>
+        <update_guid>196404c141e3cc90c21ad1afec43f5d5</update_guid>
+        <update_guid_history>196404c141e3cc90c21ad1afec43f5d5:0,8e6c37345aa3cc9099c2219c5069abbc:644301602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2020-03-12 13:32:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>93ab8c9f4fc840c1aafcd179a94a32c1</sys_id>
+        <sys_metadata>321649733752130021ca03a973990e22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IDT Budgets</sys_name>
+        <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
+        <sys_scope_delete display_value="">0390ba008308480c8759ad1a005cf591</sys_scope_delete>
+        <sys_update_name>sys_ui_module_321649733752130021ca03a973990e22</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_321649733752130021ca03a973990e22">d96404c1dbe3cc90fc332c86059619d5</sys_update_version>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2020-03-12 13:32:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
