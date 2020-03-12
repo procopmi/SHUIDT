@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="IDT User" max_length="40" name="x_172337_telecom_i_idt_user" type="collection">
-        <element label="Name" max_length="32" name="u_name" reference="sys_user" type="reference"/>
-        <element label="Supervisor" max_length="32" name="u_supervisor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Name" mandatory="true" max_length="32" name="u_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supervisor" max_length="32" name="u_supervisor" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="u_name"/>
         </index>

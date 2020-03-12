@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_object">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>false</create_access>
@@ -21,17 +21,19 @@
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-01 15:29:46</sys_created_on>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2018-06-11 14:15:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>47d581733752130021ca03a973990e8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IDT Budget</sys_name>
         <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
         <sys_update_name>sys_db_object_47d581733752130021ca03a973990e8d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-01 15:29:46</sys_updated_on>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2018-06-11 14:15:53</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_172337_telecom_i.idt_budget_user" name="x_172337_telecom_i.idt_budget_user">ee1649733752130021ca03a973990e02</user_role>
         <ws_access>true</ws_access>

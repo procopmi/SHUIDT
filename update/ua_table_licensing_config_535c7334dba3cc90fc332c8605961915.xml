@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="ua_table_licensing_config">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_172337_telecom_i_idt_budget</name>
+        <name>x_172337_telecom_i_idt_invoice</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-01 15:29:47</sys_created_on>
-        <sys_id>f21649733752130021ca03a973990e65</sys_id>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2018-06-11 14:26:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>535c7334dba3cc90fc332c8605961915</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_172337_telecom_i_idt_budget</sys_name>
+        <sys_name>x_172337_telecom_i_idt_invoice</sys_name>
         <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
-        <sys_update_name>ua_table_licensing_config_f21649733752130021ca03a973990e65</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-01 15:29:47</sys_updated_on>
+        <sys_update_name>ua_table_licensing_config_535c7334dba3cc90fc332c8605961915</sys_update_name>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2018-06-11 14:26:44</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

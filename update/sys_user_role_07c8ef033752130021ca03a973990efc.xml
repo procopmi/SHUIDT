@@ -1,26 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_172337_telecom_i.idt_user_user</name>
+        <requires_subscription/>
         <scoped_admin>false</scoped_admin>
         <suffix>idt_user_user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-30 19:25:08</sys_created_on>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2018-06-11 14:18:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>07c8ef033752130021ca03a973990efc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_172337_telecom_i.idt_user_user</sys_name>
         <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
         <sys_update_name>sys_user_role_07c8ef033752130021ca03a973990efc</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-30 19:25:08</sys_updated_on>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2018-06-11 14:18:16</sys_updated_on>
     </sys_user_role>
 </record_update>

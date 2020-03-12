@@ -1,65 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_172337_telecom_i_idt_phone" version="2" view="">
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_assigned_to</element>
-            <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>0</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-31 14:01:11</sys_created_on>
-            <sys_id>9738ef973712130021ca03a973990e23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 14:01:11</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_budget_mgr</element>
-            <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-31 14:01:11</sys_created_on>
-            <sys_id>9f38ef973712130021ca03a973990e23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 14:01:11</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_category</element>
-            <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-31 14:01:11</sys_created_on>
-            <sys_id>1338ef973712130021ca03a973990e24</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 14:01:11</sys_updated_on>
-        </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_phone_number</element>
             <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 17:46:33</sys_created_on>
+            <sys_id>f745050313221700147f5f722244b07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:46:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_idt_category</element>
+            <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 17:46:33</sys_created_on>
+            <sys_id>7b45050313221700147f5f722244b07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:46:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_assigned_to.u_name.name</element>
+            <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 17:46:33</sys_created_on>
+            <sys_id>fb45050313221700147f5f722244b07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:46:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_assigned_to.u_name.u_department</element>
+            <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-31 14:01:11</sys_created_on>
-            <sys_id>9338ef973712130021ca03a973990e24</sys_id>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 17:46:33</sys_created_on>
+            <sys_id>7f45050313221700147f5f722244b07e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 14:01:11</sys_updated_on>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:46:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_idt_budget.u_budget_mgr</element>
+            <list_id display_value="x_172337_telecom_i_idt_phone" element="NULL" name="x_172337_telecom_i_idt_phone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b38ef973712130021ca03a973990e22</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 17:46:33</sys_created_on>
+            <sys_id>ff45050313221700147f5f722244b07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:46:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -72,19 +86,20 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-31 14:01:11</sys_created_on>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 17:46:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>9b38ef973712130021ca03a973990e22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_172337_telecom_i_idt_phone</sys_name>
             <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
             <sys_update_name>sys_ui_list_x_172337_telecom_i_idt_phone_null</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 14:01:11</sys_updated_on>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:46:33</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

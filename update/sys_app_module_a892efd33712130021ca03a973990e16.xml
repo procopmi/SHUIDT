@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="IDT">42b0634f3712130021ca03a973990ed2</application>
@@ -20,23 +19,31 @@
         <query/>
         <report/>
         <roles>x_172337_telecom_i.idt_invoice_user</roles>
+        <survey/>
+        <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-31 13:36:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>a892efd33712130021ca03a973990e16</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>IDT Invoices</sys_name>
         <sys_overrides/>
         <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
         <sys_update_name>sys_app_module_a892efd33712130021ca03a973990e16</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-05-31 14:06:26</sys_updated_on>
         <timeline_page/>
         <title>IDT Invoices</title>
+        <u_count_color/>
+        <u_count_filter/>
+        <u_refresh_interval/>
+        <u_show_count>false</u_show_count>
+        <u_sort_order/>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

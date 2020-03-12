@@ -1,27 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="IDT Invoice" max_length="40" name="x_172337_telecom_i_idt_invoice" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Billing Date" max_length="40" name="u_billing_date" type="glide_date"/>
+        <element label="Bill Date" max_length="10" name="u_bill_date" type="string"/>
         <element label="Comments" max_length="1000" name="u_comments" type="string"/>
         <element label="Details" max_length="40" name="u_details" type="string"/>
-        <element label="IDT Budget" max_length="32" name="u_idt_budget" reference="x_172337_telecom_i_idt_budget" type="reference"/>
-        <element label="Category" max_length="32" name="u_idt_category" reference="x_172337_telecom_i_idt_type" type="reference"/>
-        <element label="Invoice Date" max_length="40" name="u_invoice_date" type="glide_date"/>
-        <element label="Total" max_length="20" name="u_invoice_total" type="currency"/>
-        <element label="Name" max_length="32" name="u_name" reference="x_172337_telecom_i_idt_user" type="reference"/>
-        <element label="Supervisor" max_length="32" name="u_supervisor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="IDT Budget" mandatory="true" max_length="32" name="u_idt_budget" reference="x_172337_telecom_i_idt_budget" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Category" mandatory="true" max_length="32" name="u_idt_category" reference="x_172337_telecom_i_idt_type" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Phone Number" max_length="40" name="u_idt_phone" reference="x_172337_telecom_i_idt_phone" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Invoice Closed" max_length="40" name="u_invoice_closed" read_only="true" type="boolean"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Invoice Date" mandatory="true" max_length="40" name="u_invoice_date" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Invoice Reviewed" max_length="40" name="u_invoice_reviewed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Invoice Status" max_length="40" name="u_invoice_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="1" value="reviewed"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total" max_length="20" name="u_invoice_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Name" mandatory="true" max_length="32" name="u_name" reference="x_172337_telecom_i_idt_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Reviewed By" max_length="32" name="u_reviewed_by" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supervisor" mandatory="true" max_length="32" name="u_supervisor" reference="sys_user" type="reference"/>
         <index name="index">
-            <element name="u_idt_category"/>
+            <element name="u_reviewed_by"/>
         </index>
         <index name="index2">
-            <element name="u_name"/>
+            <element name="u_idt_category"/>
         </index>
         <index name="index3">
-            <element name="u_supervisor"/>
+            <element name="u_name"/>
         </index>
         <index name="index4">
+            <element name="u_supervisor"/>
+        </index>
+        <index name="index5">
             <element name="u_idt_budget"/>
+        </index>
+        <index name="index6">
+            <element name="u_idt_phone"/>
         </index>
     </element>
 </database>

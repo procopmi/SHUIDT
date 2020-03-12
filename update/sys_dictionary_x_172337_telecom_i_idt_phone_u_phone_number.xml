@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_phone_number" table="x_172337_telecom_i_idt_phone">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>pn_display_territory_selector=false,pn_display_national=true</attributes>
+        <attributes>edge_encryption_enabled=true,pn_allow_national_entry=true,pn_display_national=all,pn_display_territory_selector=false,pn_display_territory_text=all</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
+        <calculation>(function calculatedFieldValue(current) {
 
 	// Add your code here
 	return '';  // return the calculated value
 
-})(current);]]></calculation>
+})(current);</calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
@@ -23,7 +22,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -34,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">phone_number_e164</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_172337_telecom_i_idt_phone</name>
         <next_element/>
@@ -52,17 +51,19 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-30 19:12:18</sys_created_on>
-        <sys_id>6625ab033752130021ca03a973990eeb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_by>procopmi</sys_created_by>
+        <sys_created_on>2018-06-11 14:20:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e5c3334dba3cc90fc332c86059619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Phone Number</sys_name>
         <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
         <sys_update_name>sys_dictionary_x_172337_telecom_i_idt_phone_u_phone_number</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-01 14:05:52</sys_updated_on>
+        <sys_updated_by>procopmi</sys_updated_by>
+        <sys_updated_on>2020-03-12 13:16:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

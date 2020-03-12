@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="f1b3afcf3712130021ca03a973990efd" sys_domain="global" table="x_172337_telecom_i_idt_type" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_idt_category</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-30 19:02:57</sys_created_on>
-            <sys_id>0ab3efcf3712130021ca03a973990e03</sys_id>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 14:29:47</sys_created_on>
+            <sys_id>a548dc0713aed300147f5f722244b081</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_telecom_i_idt_type" sys_domain="global" view="Default view">f1b3afcf3712130021ca03a973990efd</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-30 19:02:57</sys_updated_on>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 14:29:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -21,20 +20,21 @@
             <name>x_172337_telecom_i_idt_type</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-30 19:02:57</sys_created_on>
+            <sys_created_by>procopmi</sys_created_by>
+            <sys_created_on>2018-06-11 14:29:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>f1b3afcf3712130021ca03a973990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_172337_telecom_i_idt_type</sys_name>
             <sys_overrides/>
             <sys_package display_value="Telecom IDT" source="x_172337_telecom_i">cd2126123702130021ca03a973990eed</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Telecom IDT">cd2126123702130021ca03a973990eed</sys_scope>
             <sys_update_name>sys_ui_section_f1b3afcf3712130021ca03a973990efd</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-30 19:02:57</sys_updated_on>
+            <sys_updated_by>procopmi</sys_updated_by>
+            <sys_updated_on>2018-06-11 14:29:47</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>
